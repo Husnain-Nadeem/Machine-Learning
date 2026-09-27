@@ -1,3 +1,6 @@
+#Husnain Nadeem
+#reg no 23-ntu-cs-1038
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
