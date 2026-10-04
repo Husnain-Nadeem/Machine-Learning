@@ -1,3 +1,6 @@
+# Name Husnian Nadeem 
+# Reg No 23-NTU-cS-1038
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split

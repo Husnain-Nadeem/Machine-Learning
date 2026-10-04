@@ -1,3 +1,5 @@
+# Name Husnian Nadeem 
+# Reg No 23-NTU-cS-1038
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
