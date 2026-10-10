@@ -27,7 +27,7 @@ for k in k_values:
 plt.scatter(k_values, accuracy_scores)
 plt.xlabel("k ")
 plt.ylabel("Accuracy")
-plt.title("KNN Accuracy vs. K Values")
+plt.title("KNN Accuracy vs. K's Values")
 plt.show()
 
 k_values=range(1,30)
