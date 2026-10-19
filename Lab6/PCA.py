@@ -74,3 +74,19 @@ plt.ylabel("principal components")
 plt.xticks(rotation=45,ha="right")
 plt.tight_layout()
 plt.show()
+
+print("Explained variance:")
+print(pca.explained_variance_)
+
+print ( "\nExplained variance ratio ")
+print (pca.explained_variance_ratio_)
+
+
+pca_3 =PCA(n_components=0.96)
+X_reduced_96 = pca_3.fit_transform(X_scaled)
+
+print("Number of components selected :" , pca_3.n_components_)
+print("Total explained variance :", 
+      np.sim(pca_3.explained_variance_ratio_))
+
+print("Reduced dataset shape: ", X_reduced_96)
