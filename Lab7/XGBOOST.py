@@ -19,3 +19,4 @@ print(accuracy(stacl_clf,X_train_num,y_train_prepared))
 X_test = test_data.drop ('class', axis =1)
 y_test = test_data['class']
 y_train_prepared= label_enc.transform(y_test)
+
